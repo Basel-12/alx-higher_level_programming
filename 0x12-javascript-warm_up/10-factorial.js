@@ -1,7 +1,6 @@
 #!/usr/bin/node
 function factorial (a) {
-  if (a === 0 || a === 1)
-	return 1;
+  if (a === 0 || a === 1) { return 1; }
   return a * factorial(a - 1);
 }
 const n1 = parseInt(process.argv[2]);
