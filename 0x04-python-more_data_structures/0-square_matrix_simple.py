@@ -6,5 +6,4 @@ def square_matrix_simple(matrix=[]):
         new_row = [x ** 2 for x in row]
         # Append the new row to the new matrix
         new.append(new_row)
-    
     return new
