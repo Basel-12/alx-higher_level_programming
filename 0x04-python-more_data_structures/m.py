@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-best_score = __import__('10-best_score').best_score
+multiply_list_map = __import__('11-multiply_list_map').multiply_list_map
 
-my_dict = None
-best_key = best_score(my_dict)
-print("Best: {}".format(best_key))
+my_list = [1, 2, 3, 4, 6]
+new_list = multiply_list_map(my_list, 4)
+print(new_list)
+print(my_list)
